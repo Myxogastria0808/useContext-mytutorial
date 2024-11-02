@@ -1,0 +1,38 @@
+.startAnimation {
+  animation-name: startAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  background: #ffbb1e;
+  height: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes startAnimation {
+  0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.endAnimation {
+  animation-name: endAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  background: #ffbb1e;
+  height: 60px;
+  text-align: center;
+  width: 50%;
+}
+
+@keyframes endAnimation {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
